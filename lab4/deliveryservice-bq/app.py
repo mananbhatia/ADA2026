@@ -26,7 +26,7 @@ def update_delivery_status(d_id: int, new_status: StatusModel):
     return Status.update(d_id, new_status.status)
 
 
-@app.delete('/deliveries/<d_id>')
+@app.delete('/deliveries/{d_id}')
 def delete_delivery(d_id: int):
     return Delivery.delete(d_id)
 
