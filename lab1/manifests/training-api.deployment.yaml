@@ -24,8 +24,8 @@ spec:
           protocol: TCP
         env:
         - name: PROJECT_ID
-          value: YOUR_PROJECT_ID  # use your project id
+          value: ada2026-489016  # use your project id
         - name: MODEL_REPO
-          value: adamodels # use your GCP bucket id
-        - name: MODEL_NAME
+          value: adamodels_mb # use your GCP bucket id
+        - name: model.h5
           value: model.keras
